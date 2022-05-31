@@ -21,65 +21,35 @@ const HomeScreen = () => {
     const renderMenu = () => {
         return (
             <Row className="navbarMenu" style={{margin: 0}}>
-                <Container>
-                    <Row>
-                        <Col xs={12} md={6}>
-                            <Container>
-                            <Row className="navbar-sec1" style={{alignItems: 'center'}}>
-                                <img style={{width: 50, cursor: 'pointer'}}
-                                     src={images.imgLogo.default} onClick={() => setMenu('HOME')}/>
-                                <p onClick={() => setMenu('HOME')}
-                                   style={{margin: 0, paddingLeft: 10, fontWeight: 600, cursor: 'pointer'}}>Pawnpunnarai's
-                                    Portfolio</p>
-                            </Row>
-                            </Container>
-                        </Col>
+                <Col xs={12} md={6}>
+                    <Row className="navbar-sec1" style={{alignItems: 'center'}}>
+                        <img style={{width: 50, cursor: 'pointer'}}
+                             src={images.imgLogo.default} onClick={() => setMenu('HOME')}/>
+                        <p onClick={() => setMenu('HOME')}
+                           style={{margin: 0, paddingLeft: 10, fontWeight: 600, cursor: 'pointer'}}>Pawnpunnarai's
+                            Portfolio</p>
                     </Row>
+                </Col>
+                <Col xs={12} md={6} className="navbar-sec2">
                     <Row>
-                        <Col>1 of 3</Col>
-                        <Col>
-                            <Row className="navbar-sec1" style={{alignItems: 'center'}}>
-                                <p onClick={() => setMenu('HOME')}
-                                   style={{margin: 0, paddingLeft: 10, fontWeight: 600, cursor: 'pointer'}}>Pawnpunnarai's
-                                    Portfolio</p>
-                                <p onClick={() => setMenu('HOME')}
-                                   style={{margin: 0, paddingLeft: 10, fontWeight: 600, cursor: 'pointer'}}>Pawnpunnarai's
-                                    Portfolio</p>
-                            </Row>
-                        </Col>
-                        <Col>3 of 3</Col>
+                        <div className={menu === 'HOME' ? 'menuActive' : 'menu'} onClick={() => setMenu('ABOUT')}>
+                            <a>About Me</a>
+                        </div>
+                        <div className={menu === 'RESUME' ? 'menuActive' : 'menu'} onClick={() => setMenu('RESUME')}>
+                            <a>Resume</a>
+                        </div>
+                        <div className={menu === 'PORTFOLIO' ? 'menuActive' : 'menu'}
+                             onClick={() => setMenu('PORTFOLIO')}>
+                            <a>Portfolio</a>
+                        </div>
+                        <div>
+                            <a className="iconFac" href="https://www.facebook.com/kudokung.w/"><FontAwesomeIcon
+                                style={{width: 30, cursor: 'pointer'}} icon={faFacebookSquare}/></a>
+                            <a className="iconIns" href="https://www.instagram.com/kulzoul/"><FontAwesomeIcon
+                                icon={faInstagram}/></a>
+                        </div>
                     </Row>
-                </Container>
-
-                {/*<Col xs="12" md="6">*/}
-                {/*    <Row className="navbar-sec1" style={{alignItems: 'center'}}>*/}
-                {/*        <img style={{width: 50, cursor: 'pointer'}}*/}
-                {/*             src={images.imgLogo.default} onClick={() => setMenu('HOME')}/>*/}
-                {/*        <p onClick={() => setMenu('HOME')}*/}
-                {/*           style={{margin: 0, paddingLeft: 10, fontWeight: 600, cursor: 'pointer'}}>Pawnpunnarai's*/}
-                {/*            Portfolio</p>*/}
-                {/*    </Row>*/}
-                {/*</Col>*/}
-                {/*<Col xs="12" md="6" className="navbar-sec2">*/}
-                {/*    <Row>*/}
-                {/*        /!*<div className={menu === 'HOME' ? 'menuActive' : 'menu'} onClick={() => setMenu('ABOUT')}>*!/*/}
-                {/*        /!*    <a>About Me</a>*!/*/}
-                {/*        /!*</div>*!/*/}
-                {/*        <div className={menu === 'RESUME' ? 'menuActive' : 'menu'} onClick={() => setMenu('RESUME')}>*/}
-                {/*            <a>Resume</a>*/}
-                {/*        </div>*/}
-                {/*        <div className={menu === 'PORTFOLIO' ? 'menuActive' : 'menu'}*/}
-                {/*             onClick={() => setMenu('PORTFOLIO')}>*/}
-                {/*            <a>Portfolio</a>*/}
-                {/*        </div>*/}
-                {/*        <div>*/}
-                {/*            <a className="iconFac" href="https://www.facebook.com/kudokung.w/"><FontAwesomeIcon*/}
-                {/*                style={{width: 30, cursor: 'pointer'}} icon={faFacebookSquare}/></a>*/}
-                {/*            <a className="iconIns" href="https://www.instagram.com/kulzoul/"><FontAwesomeIcon*/}
-                {/*                icon={faInstagram}/></a>*/}
-                {/*        </div>*/}
-                {/*    </Row>*/}
-                {/*</Col>*/}
+                </Col>
             </Row>
         )
     }
@@ -107,7 +77,8 @@ const HomeScreen = () => {
                         </Col>
                         <Col xs="12" md="6" style={{color: '#635c53'}}>
                             <h1 style={{fontWeight: 600}}>Pawnpunnarai Saimoonkham</h1>
-                            <h4 style={{fontWeight: 300}}>FrontEnd Developer, Web Developer, Mobile Developer and Software
+                            <h4 style={{fontWeight: 300}}>Front End Developer, Web Developer, Mobile Developer and
+                                Software
                                 Engineering</h4>
                             <Row style={{paddingTop: 30}}>
                                 <Col>
@@ -116,7 +87,7 @@ const HomeScreen = () => {
                                              src={icons.iconExperience.default}/>
                                         <Row style={{margin: 0, alignItems: 'center'}}>
                                             <p style={{margin: 0, fontWeight: 600}}>
-                                                <span>3+ Years</span>
+                                                <span>4+ Years</span>
                                                 <br/>
                                                 <span className="text-experience">Experience</span>
                                             </p>
@@ -140,7 +111,8 @@ const HomeScreen = () => {
                                     <img style={{width: 50, height: 50}}
                                          src={icons.iconCV.default}/>
                                     <Row style={{margin: 0, alignItems: 'center'}}>
-                                        <a href={CVPort} style={{margin: 0, fontWeight: 600}} className="text-download-cv">Download
+                                        <a href={CVPort} style={{margin: 0, fontWeight: 600}}
+                                           className="text-download-cv">Download
                                             CV</a>
                                     </Row>
                                 </Row>
@@ -201,27 +173,29 @@ const HomeScreen = () => {
 
     const renderAboutMe = () => {
         const items = [{
-            title: "March 2017 – Oct 2017 (8M)",
-            cardTitle: "PranWorks Co., Ltd.",
-            cardSubtitle: "Software Engineering (Intern)",
-            cardDetailedText: "Front-End Develop about Web application by ASP.NET MVC, Back-End Develop by SqlDataSource control to connect to MySql database",
+            title: "March 2021 - Present",
+            cardTitle: "Socket 9 Co., Ltd. (HQ)",
+            cardSubtitle: "Mobile and Web Developer (Front-End)",
+            cardDetailedText: "I developed the DLT Driver and SCB Business Anywhere using React Native. HandiGo was developed using React JS.",
         },
+            {
+                title: "Jan 2019 - Feb 2021",
+                cardTitle: "SiamDApp (Thailand) Co.,Ltd.",
+                cardSubtitle: "Web and Mobile Developer (Front-End)",
+                cardDetailedText: "Using React Native, I developed CM-transit, Om Wallet application (Crypto wallet), Om Merchant (POS), and CM-Bus Sell Ticket (POS). For websites, I developed Tokenization Platform and Crowdfunding using React JS, Om Platform using WordPress, and CM-Bus Admin using Preact and React.",
+            },
             {
                 title: "Nov 2017 – Dec 2018 (1Y)",
                 cardTitle: "School of Public Policy (SPP CMU),",
                 cardSubtitle: "Web-Developer (Front-End)",
-                cardDetailedText: "I created and design a new website for my organization (School of Public Policy, Political Science, CMU) and developed by HTML, CSS, PHP.",
+                cardDetailedText: "I designed and developed a new website for my organization (CMU's School of Public Policy and Political Science) using HTML, CSS, and PHP.",
             }, {
-                title: "Jan 2019 - Feb 2021",
-                cardTitle: "SiamDApp (Thailand) Co.,Ltd.",
-                cardSubtitle: "Web and Mobile Developer (Front-End)",
-                cardDetailedText: "I developed CM-transit, Om Wallet application (Crypto wallet), Om Merchant (POS), CM-Bus Sell Ticket (POS) by using React Native. For Website i developed many website such as Tokenization Platform and Crowdfunding are using React JS,  Om Platform is using WordPress and CM-Bus Admin is using Preact and React",
-            }, {
-                title: "March 2021 - Present",
-                cardTitle: "Socket 9 Co., Ltd. (HQ)",
-                cardSubtitle: "Mobile and Web Developer (Front-End)",
-                cardDetailedText: "I developed DLT Driver, SCB Business Anywhere by using React Native. For Website i developed HandiGo by React JS",
-            }];
+                title: "March 2017 – Oct 2017 (8M)",
+                cardTitle: "PranWorks Co., Ltd.",
+                cardSubtitle: "Software Engineering (Intern)",
+                cardDetailedText: "I developed a Front-End Web applications are built with ASP.NET MVC. SqlDataSource control was used to develop a back-end that connected to a MySql database.",
+            }
+        ];
 
 
         return (
@@ -360,8 +334,11 @@ const HomeScreen = () => {
                 <h3 style={{textAlign: 'center'}}><b>{namePortfolio.name}</b></h3>
                 <h6 style={{paddingTop: 20}}><b>Description: {namePortfolio.description}</b></h6>
                 <h6><b>Skill: {namePortfolio.skill}</b></h6>
-                <h6 style={{paddingBottom: 50}}><b>Ref: <a className="onHover"
-                                                           href={namePortfolio.route}>{namePortfolio.name === 'SMART SIGNAGE' ? 'SMART SIGNAGE' : namePortfolio.route}</a></b>
+                <h6 style={{paddingBottom: 50}}>
+                    <b>Ref:
+                        <a className="onHover"
+                           href={namePortfolio.route}>{namePortfolio.name === 'SMART SIGNAGE' ? 'SMART SIGNAGE' : namePortfolio.route}</a>
+                    </b>
                 </h6>
                 <Carousel autoPlay>
                     {namePortfolio && namePortfolio.img.map(att => {
@@ -383,7 +360,6 @@ const HomeScreen = () => {
             <div className="portfolioSection">{renderPortfolio()}</div>}
             {menu === 'PORTFOLIO_DETAIL' &&
             <div className="portfolioSection">{renderPortfolioDetail()}</div>}
-
         </>
     )
 };
