@@ -1,3 +1,4 @@
+
 .navbarMenu {
   margin: 0;
   background-color: #ffc0cb8c;
@@ -174,4 +175,44 @@ img:hover + .button, .button:hover {
 .carousel .thumbs{
   justify-content: center;
   display: flex;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .img-box {
+    height: 280px !important;
+  }
+
+  .col-md-4.col-lg-3.col-xl-3.col-sm-6.col-6.mt-6 {
+    -ms-flex: 0 0 25% !important;
+    flex: 0 0 25% !important;;
+    max-width: 25% !important;;
+  }
+
+  .section-models {
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 992px) and (max-width: 1119px){
+  .img-box {
+    height: 320px !important;
+  }
+
+  .col-lg-3 {
+    -ms-flex: 0 0 20% !important;
+    flex: 0 0 20% !important;
+    max-width: 20% !important;
+  }
+}
+
+/* For large desktop: */
+@media only screen and (min-width: 1200px){
+  .col-xl-3 {
+    -ms-flex: 0 0 20% !important;
+    flex: 0 0 20% !important;
+    max-width: 20% !important;
+  }
 }
