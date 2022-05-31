@@ -7,10 +7,6 @@
 node_modules/
 dist/
 
-# Build files
-
-build/
-
 # Compiled Java class files
 *.class
 
