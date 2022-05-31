@@ -7,4 +7,4 @@
 ### `yarn start`
 for start a project.
 
-### `yarn build`
+### `yarn run build`
