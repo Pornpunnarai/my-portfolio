@@ -149,7 +149,7 @@ class MyPortfolio {
                 id: 15,
                 name: "SCB Business Anywhere",
                 description: "SCB Business Anywhere offers high efficiency and maximum security, allowing you to manage your accounts and financial transactions anywhere & anytime 24/7.",
-                skill: 'React Native, TypeScript',
+                skill: 'React Native, TypeScript, Unit Test (jest)',
                 image: images.imgProjectSCBAnywhere.default,
                 color: '#40276F',
                 route: "https://apps.apple.com/th/app/scb-business-anywhere/id1538692124?l=th",

@@ -9,14 +9,17 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import './style.scss';
 import MyPortfolio from "../../data/MyPortfolio";
 import CVPort from '../../assets/files/cv-pawnpunnarai.zip';
+import Resume from '../../assets/files/pawnpunnarai-resume.pdf';
 import {Chrono} from "react-chrono";
 import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Document, Page } from 'react-pdf';
 
 
 const HomeScreen = () => {
     const [menu, setMenu] = useState('HOME');
     const [namePortfolio, setNamePortfolio] = useState({});
+    const [numPages, setNumPages] = useState(1);
 
     const renderMenu = () => {
         return (
@@ -32,9 +35,9 @@ const HomeScreen = () => {
                 </Col>
                 <Col xs={12} md={6} className="navbar-sec2">
                     <Row>
-                        <div className={menu === 'HOME' ? 'menuActive' : 'menu'} onClick={() => setMenu('ABOUT')}>
-                            <a>About Me</a>
-                        </div>
+                        {/*<div className={menu === 'HOME' ? 'menuActive' : 'menu'} onClick={() => setMenu('ABOUT')}>*/}
+                        {/*    <a>About Me</a>*/}
+                        {/*</div>*/}
                         <div className={menu === 'RESUME' ? 'menuActive' : 'menu'} onClick={() => setMenu('RESUME')}>
                             <a>Resume</a>
                         </div>
@@ -114,6 +117,9 @@ const HomeScreen = () => {
                                         <a href={CVPort} style={{margin: 0, fontWeight: 600}}
                                            className="text-download-cv">Download
                                             CV</a>
+                                        {/*<div onClick={() => renderPDF()} style={{margin: 0, fontWeight: 600}}*/}
+                                        {/*   className="text-download-cv">Go to Resume*/}
+                                        {/*    CV</div>*/}
                                     </Row>
                                 </Row>
                             </Col>
@@ -123,6 +129,22 @@ const HomeScreen = () => {
                 </Container>
             </div>
         )
+    }
+
+    const onDocumentLoadSuccess = ({ num }) => {
+        setNumPages(num);
+    };
+    const renderPDF = () => {
+        return (
+            <div>
+                <Document
+                    file={"../../assets/files/pawnpunnarai-resume.pdf"}
+                    onLoadSuccess={() => onDocumentLoadSuccess}
+                >
+                    <Page pageNumber={1} width={600} />
+                </Document>
+            </div>
+        );
     }
 
     const renderPortfolio = () => {
