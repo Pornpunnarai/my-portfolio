@@ -27,13 +27,12 @@ const PortfolioScreen = () => {
                 </Col>
                 <Col xs={12} md={6} className="navbar-sec2">
                     <Row>
-                        <div className={'menu'} onClick={() => window.location.href = `/resume`}>
+                        <div className={'menu'}
+                             onClick={() => history.push(`/resume`)}>
                             <a>Resume</a>
                         </div>
                         <div className={'menuActive'}
-                             onClick={() => {
-                                 window.location.href = `/portfolio`;
-                             }}>
+                             onClick={() => history.push(`/portfolio`)}>
                             <a>Portfolio</a>
                         </div>
                         <div>

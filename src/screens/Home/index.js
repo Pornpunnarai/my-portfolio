@@ -29,7 +29,8 @@ const HomeScreen = () => {
                 </Col>
                 <Col xs={12} md={6} className="navbar-sec2">
                     <Row>
-                        <div className={'menu'} onClick={() => window.location.href = `/resume`}>
+                        <div className={'menu'}
+                             onClick={() => history.push(`/resume`)}>
                             <a>Resume</a>
                         </div>
                         <div className={'menu'}
