@@ -54,10 +54,10 @@ const ResumeScreen = () => {
             title: "March 2021 - Present",
             cardTitle: "Socket 9 Co., Ltd. (HQ)",
             cardSubtitle: "Mobile and Web Developer (Front-End)",
-            cardDetailedText: "I developed the DLT Driver and SCB Business Anywhere using React Native. HandiGo was developed using React JS.",
+            cardDetailedText: "I developed the DLT Driver and SCB Business Anywhere using React Native. HandiGo and Tspace Project was developed using React JS.",
         },
             {
-                title: "Jan 2019 - Feb 2021",
+                title: "Jan 2019 - Feb 2021 (2Y 2M)",
                 cardTitle: "SiamDApp (Thailand) Co.,Ltd.",
                 cardSubtitle: "Web and Mobile Developer (Front-End)",
                 cardDetailedText: "Using React Native, I developed CM-transit, Om Wallet application (Crypto wallet), Om Merchant (POS), and CM-Bus Sell Ticket (POS). For websites, I developed Tokenization Platform and Crowdfunding using React JS, Om Platform using WordPress, and CM-Bus Admin using Preact and React.",
