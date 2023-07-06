@@ -52,7 +52,7 @@ const PortfolioScreen = () => {
                 {MyPortfolio.MENU.map((att, index) => {
 
                     const fullImage = att.name === 'Urban Transit';
-                    const squareImage = index === 2 || index === 3 || index === 6 || index === 8
+                    const squareImage = index === 2 || index === 3 || index === 6 || index === 8 || index === 17
 
                     return (
                         <Col xs="12" md="4" key={index}

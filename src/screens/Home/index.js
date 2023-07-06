@@ -10,7 +10,7 @@ import icons from "../../commons/icons";
 
 // Styles
 import './style.scss';
-import CVPort from '../../assets/files/cv-pawnpunnarai.zip';
+import CVPort from '../../assets/files/Resume - Pawnpunnarai Saimoonkham.pdf';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const HomeScreen = () => {
@@ -82,7 +82,7 @@ const HomeScreen = () => {
                                              src={icons.iconExperience.default}/>
                                         <Row style={{margin: 0, alignItems: 'center'}}>
                                             <p style={{margin: 0, fontWeight: 600}}>
-                                                <span>4+ Years</span>
+                                                <span>5+ Years</span>
                                                 <br/>
                                                 <span className="text-experience">Experience</span>
                                             </p>
@@ -107,8 +107,7 @@ const HomeScreen = () => {
                                          src={icons.iconCV.default}/>
                                     <Row style={{margin: 0, alignItems: 'center'}}>
                                         <a href={CVPort} style={{margin: 0, fontWeight: 600}}
-                                           className="text-download-cv">Download
-                                            CV</a>
+                                           className="text-download-cv">Download CV</a>
                                         {/*<div onClick={() => renderPDF()} style={{margin: 0, fontWeight: 600}}*/}
                                         {/*   className="text-download-cv">Go to Resume*/}
                                         {/*    CV</div>*/}

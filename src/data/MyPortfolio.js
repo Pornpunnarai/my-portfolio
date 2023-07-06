@@ -165,6 +165,25 @@ class MyPortfolio {
                 route: "https://apps.apple.com/app/handigo/id1259808783",
                 img: [images.imgSliderHandiGo1.default, images.imgSliderHandiGo2.default, images.imgSliderHandiGo3.default]
             },
+            {
+                id: 17,
+                name: "TSpace",
+                description: "Supplier Management",
+                skill: 'React JS, JavaScript, CSS',
+                image: images.imgProjectTSpace.default,
+                color: '#0B4E80FF',
+                route: "https://supplier.tspacesourcing.com",
+                img: [images.imgSliderTSpace1.default, images.imgSliderTSpace2.default, images.imgSliderTSpace3.default, images.imgSliderTSpace4.default, images.imgSliderTSpace5.default, images.imgSliderTSpace6.default]
+            },
+            {
+                id: 18,
+                name: "ASAPH (developing)",
+                description: "Live Shopping & Marketplace Buy, sell & Go Live",
+                skill: 'React Native, TypeScript',
+                image: images.imgProjectAsaph.default,
+                color: '#D82F7D',
+                img: [images.imgSliderAsaph1.default, images.imgSliderAsaph2.default, images.imgSliderAsaph3.default,images.imgSliderAsaph4.default, images.imgSliderAsaph5.default, images.imgSliderAsaph6.default, images.imgSliderAsaph7.default]
+            },
         ];
     }
 }
