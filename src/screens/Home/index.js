@@ -82,7 +82,7 @@ const HomeScreen = () => {
                                              src={icons.iconExperience.default}/>
                                         <Row style={{margin: 0, alignItems: 'center'}}>
                                             <p style={{margin: 0, fontWeight: 600}}>
-                                                <span>5+ Years</span>
+                                                <span>6+ Years</span>
                                                 <br/>
                                                 <span className="text-experience">Experience</span>
                                             </p>
@@ -95,7 +95,7 @@ const HomeScreen = () => {
                                              src={icons.iconAchieve.default}/>
                                         <Row style={{margin: 0, alignItems: 'center'}}>
                                             <p style={{margin: 0, fontWeight: 600}}>
-                                                <span>10+ Projects</span>
+                                                <span>15+ Projects</span>
                                                 <br/>
                                                 <span className="text-complete">Complete</span>
                                             </p>

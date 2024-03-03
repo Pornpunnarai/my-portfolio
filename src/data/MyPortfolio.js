@@ -184,6 +184,24 @@ class MyPortfolio {
                 color: '#D82F7D',
                 img: [images.imgSliderAsaph1.default, images.imgSliderAsaph2.default, images.imgSliderAsaph3.default,images.imgSliderAsaph4.default, images.imgSliderAsaph5.default, images.imgSliderAsaph6.default, images.imgSliderAsaph7.default]
             },
+            {
+                id: 19,
+                name: "Land And House - Career (develop)",
+                description: "Job Management",
+                skill: 'HTML, Javascript, CSS, SCSS',
+                image: images.imgProjectLandAndHouse.default,
+                color: '#003687',
+                img: [images.imgSliderLHCareer1.default, images.imgSliderLHCareer2.default, images.imgSliderLHCareer3.default, images.imgSliderLHCareer4.default, images.imgSliderLHCareer5.default]
+            },
+            {
+                id: 20,
+                name: "Land And House - Land For Sale (develop)",
+                description: "Land Management",
+                skill: 'HTML, Javascript, CSS, SCSS',
+                image: images.imgProjectLandAndHouse.default,
+                color: '#003687',
+                img: [images.imgSliderLHJobForSale1.default, images.imgSliderLHJobForSale2.default, images.imgSliderLHJobForSale3.default,images.imgSliderLHJobForSale4.default]
+            },
         ];
     }
 }

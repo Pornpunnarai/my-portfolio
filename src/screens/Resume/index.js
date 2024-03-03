@@ -54,7 +54,7 @@ const ResumeScreen = () => {
             title: "March 2021 - Present",
             cardTitle: "Socket 9 Co., Ltd. (HQ)",
             cardSubtitle: "Mobile and Web Developer (Front-End)",
-            cardDetailedText: "I developed the DLT Driver and SCB Business Anywhere using React Native. HandiGo and Tspace Project was developed using React JS.",
+            cardDetailedText: "I developed the DLT Driver and SCB Business Anywhere using React Native. HandiGo and Tspace Project was developed using React JS. and the current project, ASAPH, was developed using TypeScript and implemented a live streaming application using VideoSDK.",
         },
             {
                 title: "Jan 2019 - Feb 2021 (2Y 2M)",
@@ -173,7 +173,7 @@ const ResumeScreen = () => {
                                         </p>
                                         <p>
                                             <b>Familiar Programming Language</b><br/>
-                                            ReactJS, React Native, HTML, CSS, SCSS, JavaScript, jQuery, Angular, MSSQL,
+                                            ReactJS, React Native, HTML, CSS, SCSS, JavaScript, TypeScript, jQuery, Angular, MSSQL,
                                             Java, PHP, ASP.Net C#
                                         </p>
                                         <p>
@@ -183,13 +183,12 @@ const ResumeScreen = () => {
                                         </p>
                                         <p>
                                             <b> Others Software</b><br/>
+                                            Video SDK (Live Streaming SDK),
                                             Telerik Reporting and Telerik Kendo UI (Grid), MS Office
-
                                         </p>
                                         <p>
                                             <b>Language</b><br/>
                                             Fair command in English (Speaking, listening, writing and reading).
-
                                         </p>
                                         <p>
                                             <b>Other</b><br/>
