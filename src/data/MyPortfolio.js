@@ -177,7 +177,7 @@ class MyPortfolio {
             },
             {
                 id: 18,
-                name: "ASAPH (developing)",
+                name: "ASAPH",
                 description: "Live Shopping & Marketplace Buy, sell & Go Live",
                 skill: 'React Native, TypeScript',
                 image: images.imgProjectAsaph.default,
@@ -186,21 +186,43 @@ class MyPortfolio {
             },
             {
                 id: 19,
-                name: "Land And House - Career (develop)",
+                name: "Land And House - Career",
                 description: "Job Management",
                 skill: 'HTML, Javascript, CSS, SCSS',
+                route: "https://job.lh.co.th/job/",
                 image: images.imgProjectLandAndHouse.default,
                 color: '#003687',
                 img: [images.imgSliderLHCareer1.default, images.imgSliderLHCareer2.default, images.imgSliderLHCareer3.default, images.imgSliderLHCareer4.default, images.imgSliderLHCareer5.default]
             },
             {
                 id: 20,
-                name: "Land And House - Land For Sale (develop)",
+                name: "Land And House - Land For Sale",
                 description: "Land Management",
                 skill: 'HTML, Javascript, CSS, SCSS',
+                route: "https://land-for-sale.lh.co.th/",
                 image: images.imgProjectLandAndHouse.default,
                 color: '#003687',
                 img: [images.imgSliderLHJobForSale1.default, images.imgSliderLHJobForSale2.default, images.imgSliderLHJobForSale3.default,images.imgSliderLHJobForSale4.default]
+            },
+            {
+                id: 21,
+                name: "Land And House - Land For Sale",
+                description: "Website for Newly Built & Furnished House",
+                skill: 'HTML, Javascript, CSS, SCSS',
+                image: images.imgProjectLandAndHouse.default,
+                route:'https://www.lh.co.th/landing/crafted2024/',
+                color: '#003687',
+                img: [images.imgSliderCraft20241.default,images.imgSliderCraft20242.default,images.imgSliderCraft20243.default,images.imgSliderCraft20244.default,images.imgSliderCraft20245.default]
+            },
+            {
+                id: 23,
+                name: "Pikul Wallet (Release and developing)",
+                description: "E-Wallet Application (Current Project)",
+                skill: 'React Native, TypeScript',
+                image: images.imgProjectPikul.default,
+                route:'https://play.google.com/store/apps/details?id=com.awc.pikulapp&hl=th, https://apps.apple.com/th/app/pikul/id1673036794',
+                color: '#A32035',
+                img: [images.imgSliderPikul.default]
             },
         ];
     }

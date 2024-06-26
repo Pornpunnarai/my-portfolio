@@ -19,6 +19,7 @@ export default {
   imgProjectTSpace: require("../assets/images/img-proj-cross_procurement.jpeg"),
   imgProjectAsaph: require("../assets/images/img-proj-asaph.png"),
   imgProjectLandAndHouse: require("../assets/images/img-proj-lh.png"),
+  imgProjectPikul: require("../assets/images/img-proj-pikul.png"),
   imgLogo: require("../assets/images/icon-logo.png"),
   imgSliderTokenization1: require("../assets/images/tokenization/img-slider-token-1.png"),
   imgSliderTokenization2: require("../assets/images/tokenization/img-slider-token-2.png"),
@@ -125,4 +126,10 @@ export default {
   imgSliderLHJobForSale2: require("../assets/images/lhJobSale/img-slider-lh-job-sale-2.png"),
   imgSliderLHJobForSale3: require("../assets/images/lhJobSale/img-slider-lh-job-sale-3.png"),
   imgSliderLHJobForSale4: require("../assets/images/lhJobSale/img-slider-lh-job-sale-4.png"),
+  imgSliderCraft20241: require("../assets/images/craft2024/img-slider-craft-2024-1.png"),
+  imgSliderCraft20242: require("../assets/images/craft2024/img-slider-craft-2024-2.png"),
+  imgSliderCraft20243: require("../assets/images/craft2024/img-slider-craft-2024-3.png"),
+  imgSliderCraft20244: require("../assets/images/craft2024/img-slider-craft-2024-4.png"),
+  imgSliderCraft20245: require("../assets/images/craft2024/img-slider-craft-2024-5.png"),
+  imgSliderPikul: require("../assets/images/pikul/img-slider-pikul-1.png"),
 };

@@ -54,7 +54,7 @@ const ResumeScreen = () => {
             title: "March 2021 - Present",
             cardTitle: "Socket 9 Co., Ltd. (HQ)",
             cardSubtitle: "Mobile and Web Developer (Front-End)",
-            cardDetailedText: "I developed the DLT Driver and SCB Business Anywhere using React Native. HandiGo and Tspace Project was developed using React JS. and the current project, ASAPH, was developed using TypeScript and implemented a live streaming application using VideoSDK.",
+            cardDetailedText: "I developed the DLT Driver and SCB Business Anywhere using React Native, HandiGo and Tspace Project was developed using React JS, ASAPH application was developed using TypeScript and implemented a live streaming application using VideoSDK. and the current project, Pikul app, Pikul merchant app is a e-wallet for asset world corporation",
         },
             {
                 title: "Jan 2019 - Feb 2021 (2Y 2M)",
