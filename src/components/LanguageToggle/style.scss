@@ -1,0 +1,26 @@
+.language-toggle {
+  display: flex;
+  gap: 4px;
+}
+
+.language-toggle__btn {
+  padding: 4px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+
+  &--active {
+    background: var(--color-navy);
+    border-color: var(--color-navy);
+    color: #fff;
+  }
+
+  &:hover:not(&--active) {
+    border-color: var(--color-navy);
+  }
+}

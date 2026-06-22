@@ -1,0 +1,41 @@
+.section-projects {
+  padding: var(--section-padding);
+  background: var(--color-bg);
+}
+
+.section-projects__container {
+  max-width: var(--max-width);
+}
+
+.section-projects__title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--color-navy);
+  margin-bottom: 32px;
+}
+
+.section-projects__col {
+  margin-bottom: 24px;
+}
+
+.section-projects__view-all {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.section-projects__link {
+  display: inline-block;
+  padding: 10px 28px;
+  border: 2px solid var(--color-navy);
+  border-radius: 4px;
+  color: var(--color-navy);
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    background: var(--color-navy);
+    color: #fff;
+    text-decoration: none;
+  }
+}

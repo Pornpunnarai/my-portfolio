@@ -1,0 +1,44 @@
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import experience from '../../data/experience';
+import contact from '../../data/contact';
+import { useLanguage } from '../../context/LanguageContext';
+import './style.scss';
+
+const SectionExperience = () => {
+  const { t } = useLanguage();
+
+  return (
+    <section id="experience" className="section-experience">
+      <Container className="section-experience__container">
+        <h2 className="section-experience__title">{t('experience.title')}</h2>
+
+        <div className="section-experience__timeline">
+          {experience.map((entry) => (
+            <div key={`${entry.company}-${entry.period}`} className="section-experience__entry">
+              <div className="section-experience__dot" />
+              <div className="section-experience__content">
+                <span className="section-experience__period">{entry.period}</span>
+                <h3 className="section-experience__company">{entry.company}</h3>
+                <p className="section-experience__role">{entry.role}</p>
+                <ul className="section-experience__bullets">
+                  {entry.bullets.map((bullet) => (
+                    <li key={bullet}>{bullet}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="section-experience__cv">
+          <a href={contact.cvPath} download className="section-experience__cv-link">
+            {t('experience.downloadCv')}
+          </a>
+        </div>
+      </Container>
+    </section>
+  );
+};
+
+export default SectionExperience;

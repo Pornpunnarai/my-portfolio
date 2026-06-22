@@ -1,0 +1,45 @@
+.section-skills {
+  padding: var(--section-padding);
+  background: var(--color-bg-alt);
+}
+
+.section-skills__container {
+  max-width: var(--max-width);
+}
+
+.section-skills__title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--color-navy);
+  margin-bottom: 32px;
+}
+
+.section-skills__group {
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.section-skills__group-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 12px;
+}
+
+.section-skills__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.section-skills__chip {
+  padding: 6px 14px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  font-size: 0.875rem;
+  color: var(--color-navy);
+}

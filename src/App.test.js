@@ -1,8 +1,15 @@
 import { render, screen } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
+import { LanguageProvider } from './context/LanguageContext';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders home hero on root route', () => {
+  render(
+    <LanguageProvider>
+      <MemoryRouter>
+        <App />
+      </MemoryRouter>
+    </LanguageProvider>
+  );
+  expect(screen.getByText('Pawnpunnarai Saimoonkham')).toBeInTheDocument();
 });
