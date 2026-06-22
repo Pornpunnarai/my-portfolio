@@ -199,7 +199,10 @@ src/
 5. Featured projects match the four specified names
 6. `/resume` redirects or is removed without broken links in navbar
 
-## Open Items (user to provide before implementation)
+## Contact Information
 
-- LinkedIn profile URL
-- Professional email address for contact section
+| Channel | Value |
+|---------|-------|
+| LinkedIn | https://www.linkedin.com/in/pawnpunnarai-saimoonkham-b0041b130/ |
+| Email | pawnpunnarai.saimoonkham@gmail.com |
+| CV | Existing PDF: `Resume - Pawnpunnarai Saimoonkham.pdf` |
