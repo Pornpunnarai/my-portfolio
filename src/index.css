@@ -1,3 +1,5 @@
+@import './styles/_variables.scss';
+
 @font-face {
     font-family: 'Helvetica Neu';
     font-style: normal;
