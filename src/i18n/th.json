@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "about": "เกี่ยวกับ",
+    "experience": "ประสบการณ์",
+    "projects": "ผลงาน",
+    "contact": "ติดต่อ",
+    "downloadCv": "ดาวน์โหลด CV"
+  },
+  "hero": {
+    "title": "ปอนปุณณรัตน์ สายมูลคำ",
+    "subtitle": "Front-End Developer · Mobile Developer",
+    "years": "6+ ปี",
+    "experienceLabel": "ประสบการณ์",
+    "projects": "15+ โปรเจกต์",
+    "projectsLabel": "สำเร็จแล้ว",
+    "downloadCv": "ดาวน์โหลด CV"
+  },
+  "about": {
+    "title": "เกี่ยวกับฉัน",
+    "body": "นักพัฒนา Front-End และ Mobile ที่มีประสบการณ์กว่า 6 ปี ในการสร้างแอปพลิเคชันเว็บและมือถือสำหรับองค์กร เชี่ยวชาญ React, React Native และ TypeScript สำหรับผลิตภัณฑ์ในองค์กร รวมถึงแอปธนาคาร e-wallet และ live streaming"
+  },
+  "experience": {
+    "title": "ประสบการณ์การทำงาน",
+    "downloadCv": "ดาวน์โหลด CV"
+  },
+  "skills": {
+    "title": "ทักษะ",
+    "languages": "ภาษาโปรแกรม",
+    "frameworks": "Framework",
+    "tools": "เครื่องมือ"
+  },
+  "projects": {
+    "title": "ผลงานเด่น",
+    "viewAll": "ดูผลงานทั้งหมด",
+    "viewDetails": "ดูรายละเอียด"
+  },
+  "contact": {
+    "title": "ติดต่อ",
+    "linkedin": "LinkedIn",
+    "email": "อีเมล"
+  },
+  "footer": {
+    "copyright": "© ปอนปุณณรัตน์ สายมูลคำ"
+  },
+  "portfolio": {
+    "title": "ผลงานทั้งหมด",
+    "subtitle": "ตัวอย่างแอปพลิเคชันเว็บและมือถือที่ผมมีส่วนร่วมพัฒนา"
+  }
+}

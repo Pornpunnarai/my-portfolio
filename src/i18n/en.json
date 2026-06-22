@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "downloadCv": "Download CV"
+  },
+  "hero": {
+    "title": "Pawnpunnarai Saimoonkham",
+    "subtitle": "Front-End Developer · Mobile Developer",
+    "years": "6+ Years",
+    "experienceLabel": "Experience",
+    "projects": "15+ Projects",
+    "projectsLabel": "Completed",
+    "downloadCv": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "body": "Front-End and Mobile Developer with 6+ years of experience building enterprise web and mobile applications. Specialized in React, React Native, and TypeScript for in-house and corporate products including banking, e-wallet, and live streaming platforms."
+  },
+  "experience": {
+    "title": "Work Experience",
+    "downloadCv": "Download CV"
+  },
+  "skills": {
+    "title": "Skills",
+    "languages": "Languages",
+    "frameworks": "Frameworks",
+    "tools": "Tools"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "viewAll": "View All Projects",
+    "viewDetails": "View Details"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "footer": {
+    "copyright": "© Pawnpunnarai Saimoonkham"
+  },
+  "portfolio": {
+    "title": "All Projects",
+    "subtitle": "A selection of web and mobile applications I have contributed to."
+  }
+}
