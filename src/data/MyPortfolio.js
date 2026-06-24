@@ -228,4 +228,6 @@ class MyPortfolio {
     }
 }
 
-export default new MyPortfolio();
+const myPortfolio = new MyPortfolio();
+
+export default myPortfolio;

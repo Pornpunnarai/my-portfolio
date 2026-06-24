@@ -1,4 +1,4 @@
-export default {
+const images = {
   imgIntro: require("../assets/images/img-intro.png"),
   imgProjectBanpu: require("../assets/images/img-proj-banpu.png"),
   imgProjectCmBusPos: require("../assets/images/img-proj-cmbus-pos.png"),
@@ -133,3 +133,5 @@ export default {
   imgSliderCraft20245: require("../assets/images/craft2024/img-slider-craft-2024-5.png"),
   imgSliderPikul: require("../assets/images/pikul/img-slider-pikul-1.png"),
 };
+
+export default images;
