@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { faEnvelope, faFileDownload } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFileDownload, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import contact from '../../data/contact';
@@ -12,8 +12,9 @@ const SectionContact = () => {
 
   return (
     <section id="contact" className="section-contact">
-      <Container className="section-contact__container">
+      <Container className="section-contact__container section-container">
         <h2 className="section-contact__title">{t('contact.title')}</h2>
+        <p className="section-contact__subtitle">{t('contact.subtitle')}</p>
 
         <div className="section-contact__links">
           <a
@@ -21,17 +22,31 @@ const SectionContact = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="section-contact__link"
+            aria-label={t('contact.linkedin')}
           >
             <FontAwesomeIcon icon={faLinkedin} />
             <span>{t('contact.linkedin')}</span>
           </a>
-          <a href={`mailto:${contact.email}`} className="section-contact__link">
+          <a
+            href={`mailto:${contact.email}`}
+            className="section-contact__link"
+            aria-label={t('contact.email')}
+          >
             <FontAwesomeIcon icon={faEnvelope} />
-            <span>{t('contact.email')}</span>
+            <span>{contact.email}</span>
           </a>
           <a href={contact.cvPath} download className="section-contact__link">
             <FontAwesomeIcon icon={faFileDownload} />
             <span>{t('nav.downloadCv')}</span>
+          </a>
+          <a
+            href={contact.cvPath}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="section-contact__link"
+          >
+            <FontAwesomeIcon icon={faExternalLinkAlt} />
+            <span>{t('nav.viewResume')}</span>
           </a>
         </div>
       </Container>

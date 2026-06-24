@@ -17,7 +17,13 @@
 .portfolio-page__subtitle {
   font-size: 1rem;
   color: var(--color-text-muted);
-  margin-bottom: 32px;
+  margin-bottom: 24px;
+}
+
+.portfolio-page__empty {
+  text-align: center;
+  color: var(--color-text-muted);
+  padding: 40px 0;
 }
 
 .portfolio-page__col {

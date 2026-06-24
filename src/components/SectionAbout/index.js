@@ -8,8 +8,8 @@ const SectionAbout = () => {
 
   return (
     <section id="about" className="section-about">
-      <Container className="section-about__container">
-        <h2 className="section-about__title">{t('about.title')}</h2>
+      <Container className="section-about__container section-container">
+        <h2 className="section-title">{t('about.title')}</h2>
         <p className="section-about__body">{t('about.body')}</p>
       </Container>
     </section>

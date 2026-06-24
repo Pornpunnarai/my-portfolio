@@ -73,24 +73,42 @@
   }
 }
 
-.section-experience__cv {
+.section-experience__actions {
   margin-top: 40px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
-.section-experience__cv-link {
+.section-experience__btn {
   display: inline-block;
   padding: 10px 24px;
-  background: var(--color-navy);
-  color: #fff;
-  border-radius: 4px;
+  border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
-  transition: background 0.2s;
+  font-size: 0.9rem;
+  transition: background 0.2s, color 0.2s;
 
-  &:hover {
-    background: var(--color-navy-dark);
+  &--primary {
+    background: var(--color-navy);
     color: #fff;
-    text-decoration: none;
+
+    &:hover {
+      background: var(--color-navy-dark);
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  &--outline {
+    border: 1px solid var(--color-navy);
+    color: var(--color-navy);
+
+    &:hover {
+      background: var(--color-navy-light);
+      color: var(--color-navy);
+      text-decoration: none;
+    }
   }
 }

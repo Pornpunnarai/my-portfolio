@@ -9,10 +9,16 @@
 }
 
 .section-contact__title {
-  font-size: 1.75rem;
+  font-size: var(--font-size-h2);
   font-weight: 600;
   color: #fff;
+  margin-bottom: 12px;
+}
+
+.section-contact__subtitle {
+  color: rgba(255, 255, 255, 0.75);
   margin-bottom: 32px;
+  font-size: var(--font-size-body);
 }
 
 .section-contact__links {

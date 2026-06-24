@@ -16,7 +16,7 @@ const SectionSkills = () => {
   return (
     <section id="skills" className="section-skills">
       <Container className="section-skills__container">
-        <h2 className="section-skills__title">{t('skills.title')}</h2>
+        <h2 className="section-title section-title--light">{t('skills.title')}</h2>
 
         {SKILL_GROUPS.map(({ key, items }) => (
           <div key={key} className="section-skills__group">

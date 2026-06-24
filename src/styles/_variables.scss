@@ -1,14 +1,24 @@
 :root {
   --color-navy: #1e3a5f;
   --color-navy-dark: #152a45;
+  --color-navy-light: #e8eef4;
+  --color-accent: #2563eb;
+  --color-success: #059669;
   --color-bg: #ffffff;
-  --color-bg-alt: #f7f8fa;
+  --color-bg-alt: #f8fafc;
   --color-text: #2d3748;
   --color-text-muted: #718096;
   --color-border: #e2e8f0;
-  --font-family: 'Helvetica Neu', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family: 'Inter', 'Noto Sans Thai', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-heading: 'Inter', 'Noto Sans Thai', sans-serif;
+  --font-size-h1: 2.5rem;
+  --font-size-h2: 1.75rem;
+  --font-size-body: 1rem;
+  --font-size-small: 0.875rem;
+  --line-height-body: 1.6;
   --shadow-card: 0 2px 8px rgba(30, 58, 95, 0.08);
   --shadow-card-hover: 0 4px 16px rgba(30, 58, 95, 0.15);
+  --shadow-image: 0 8px 24px rgba(30, 58, 95, 0.12);
   --section-padding: 80px 0;
   --max-width: 1140px;
 }

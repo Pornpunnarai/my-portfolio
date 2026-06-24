@@ -1,0 +1,16 @@
+.section-title {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-h2);
+  font-weight: 600;
+  color: var(--color-navy);
+  margin-bottom: 32px;
+  text-align: center;
+
+  &--light {
+    color: var(--color-navy);
+  }
+}
+
+.section-container {
+  max-width: var(--max-width);
+}

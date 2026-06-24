@@ -1,27 +1,37 @@
 {
   "nav": {
+    "brand": "PS · Developer",
     "about": "เกี่ยวกับ",
     "experience": "ประสบการณ์",
+    "education": "การศึกษา",
     "projects": "ผลงาน",
     "contact": "ติดต่อ",
-    "downloadCv": "ดาวน์โหลด CV"
+    "downloadCv": "ดาวน์โหลด CV",
+    "viewResume": "ดู Resume",
+    "menuToggle": "เปิด/ปิดเมนู"
   },
   "hero": {
-    "title": "ปอนปุณณรัตน์ สายมูลคำ",
-    "subtitle": "Front-End Developer · Mobile Developer",
-    "years": "6+ ปี",
-    "experienceLabel": "ประสบการณ์",
-    "projects": "15+ โปรเจกต์",
-    "projectsLabel": "สำเร็จแล้ว",
-    "downloadCv": "ดาวน์โหลด CV"
+    "title": "พรพรรณนารายณ์ ทรายมูลคำ",
+    "subtitle": "Mobile & Front-End & Web Developer · React Native· React · TypeScript",
+    "tagline": "ประสบการณ์ 7+ ปี สร้างแอป production ให้ Asset World, SCB, DLT และ อื่นๆ อีกมากมาย",
+    "years": "7+",
+    "experienceLabel": "ปีประสบการณ์",
+    "projects": "15+",
+    "projectsLabel": "โปรเจกต์สำเร็จ",
+    "downloadCv": "ดาวน์โหลด CV",
+    "viewResume": "ดู Resume"
   },
   "about": {
     "title": "เกี่ยวกับฉัน",
-    "body": "นักพัฒนา Front-End และ Mobile ที่มีประสบการณ์กว่า 6 ปี ในการสร้างแอปพลิเคชันเว็บและมือถือสำหรับองค์กร เชี่ยวชาญ React, React Native และ TypeScript สำหรับผลิตภัณฑ์ในองค์กร รวมถึงแอปธนาคาร e-wallet และ live streaming"
+    "body": "ฉันพัฒนาแอปมือถือและเว็บที่พร้อมใช้งานจริงสำหรับอุตสาหกรรมที่มีการกำกับดูแล — ธนาคาร ภาครัฐ และ fintech เชี่ยวชาญ React, React Native และ TypeScript พร้อมประสบการณ์ launch แอปขึ้น App Store และ Play Store ให้ลูกค้าองค์กร"
   },
   "experience": {
     "title": "ประสบการณ์การทำงาน",
-    "downloadCv": "ดาวน์โหลด CV"
+    "downloadCv": "ดาวน์โหลด CV",
+    "viewResume": "ดู Resume"
+  },
+  "education": {
+    "title": "การศึกษา"
   },
   "skills": {
     "title": "ทักษะ",
@@ -31,19 +41,32 @@
   },
   "projects": {
     "title": "ผลงานเด่น",
-    "viewAll": "ดูผลงานทั้งหมด",
-    "viewDetails": "ดูรายละเอียด"
+    "viewAll": "ดูผลงานทั้งหมด →",
+    "viewDetails": "ดูรายละเอียด",
+    "platform": "แพลตฟอร์ม",
+    "role": "บทบาท",
+    "status": {
+      "live": "ใช้งานจริง",
+      "inDevelopment": "กำลังพัฒนา"
+    }
   },
   "contact": {
     "title": "ติดต่อ",
+    "subtitle": "เปิดรับโอกาสใหม่ ติดต่อได้เลยครับ",
     "linkedin": "LinkedIn",
     "email": "อีเมล"
   },
   "footer": {
-    "copyright": "© ปอนปุณณรัตน์ สายมูลคำ"
+    "copyright": "© พรพรรณนารายณ์ ทรายมูลคำ"
   },
   "portfolio": {
     "title": "ผลงานทั้งหมด",
-    "subtitle": "ตัวอย่างแอปพลิเคชันเว็บและมือถือที่ผมมีส่วนร่วมพัฒนา"
+    "subtitle": "ตัวอย่างแอปพลิเคชันเว็บและมือถือที่ฉันมีส่วนร่วมพัฒนา",
+    "filterAll": "ทั้งหมด",
+    "filterMobile": "Mobile",
+    "filterWeb": "Web",
+    "typeMobile": "Mobile",
+    "typeWeb": "Web",
+    "empty": "ไม่มีโปรเจกต์ในหมวดนี้"
   }
 }

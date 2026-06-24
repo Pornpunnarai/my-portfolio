@@ -1,52 +1,19 @@
-@font-face {
-    font-family: 'Helvetica Neu';
-    font-style: normal;
-    src: local('Helvetica Neu'), url('./assets/fonts/HelveticaNeue.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'HelveticaNeuBold';
-    src: local('HelveticaNeuBold'), url('./assets/fonts/HelveticaNeuBold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'HelveticaNeuMedium';
-    font-style: normal;
-    src: local('HelveticaNeuMedium'), url('./assets/fonts/HelveticaNeueMedium.ttf') format('truetype');
-}
-
 body {
     margin: 0;
-    font-family: 'Helvetica Neu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-    sans-serif;
+    font-family: var(--font-family);
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    color: var(--color-text);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-    font-family: 'Helvetica Neu', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 div, h1, h2, h3, h4, h5, span, p {
-    font-family: 'Helvetica Neu', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-}
-
-.container-intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 50px 0;
-}
-
-@media screen and (max-width: 767px) {
-    .container-intro {
-        padding: 100px 10px 10px 10px;
-    }
+    font-family: var(--font-family);
 }
 
 .row {
@@ -58,7 +25,7 @@ div, h1, h2, h3, h4, h5, span, p {
 }
 
 .iconFac:hover {
-    color: #007bff;
+    color: var(--color-accent);
 }
 
 .iconIns:hover {
@@ -67,4 +34,23 @@ div, h1, h2, h3, h4, h5, span, p {
 
 .carousel .slide {
     background: transparent !important;
+}
+
+.carousel .thumbs {
+    justify-content: center;
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .carousel .slide img {
+        width: auto !important;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .index-page {
+        width: 100%;
+        height: 100%;
+    }
 }

@@ -10,5 +10,6 @@ test('hero shows name and experience stat', () => {
     </LanguageProvider>
   );
   expect(screen.getByText('Pawnpunnarai Saimoonkham')).toBeInTheDocument();
-  expect(screen.getByText(/6\+/)).toBeInTheDocument();
+  expect(screen.getByText('6+')).toBeInTheDocument();
+  expect(screen.getByText(/SCB, DLT/)).toBeInTheDocument();
 });

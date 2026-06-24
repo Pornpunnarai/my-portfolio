@@ -10,8 +10,8 @@ const SectionExperience = () => {
 
   return (
     <section id="experience" className="section-experience">
-      <Container className="section-experience__container">
-        <h2 className="section-experience__title">{t('experience.title')}</h2>
+      <Container className="section-experience__container section-container">
+        <h2 className="section-title">{t('experience.title')}</h2>
 
         <div className="section-experience__timeline">
           {experience.map((entry) => (
@@ -31,9 +31,17 @@ const SectionExperience = () => {
           ))}
         </div>
 
-        <div className="section-experience__cv">
-          <a href={contact.cvPath} download className="section-experience__cv-link">
+        <div className="section-experience__actions">
+          <a href={contact.cvPath} download className="section-experience__btn section-experience__btn--primary">
             {t('experience.downloadCv')}
+          </a>
+          <a
+            href={contact.cvPath}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="section-experience__btn section-experience__btn--outline"
+          >
+            {t('experience.viewResume')}
           </a>
         </div>
       </Container>

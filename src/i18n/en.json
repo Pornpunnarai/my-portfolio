@@ -1,27 +1,37 @@
 {
   "nav": {
+    "brand": "PS · Developer",
     "about": "About",
     "experience": "Experience",
+    "education": "Education",
     "projects": "Projects",
     "contact": "Contact",
-    "downloadCv": "Download CV"
+    "downloadCv": "Download CV",
+    "viewResume": "View Resume",
+    "menuToggle": "Toggle navigation menu"
   },
   "hero": {
     "title": "Pawnpunnarai Saimoonkham",
-    "subtitle": "Front-End Developer · Mobile Developer",
-    "years": "6+ Years",
-    "experienceLabel": "Experience",
-    "projects": "15+ Projects",
-    "projectsLabel": "Completed",
-    "downloadCv": "Download CV"
+    "subtitle": "Mobile & Front-End & Web Developer · React Native· React · TypeScript",
+    "tagline": "7+ years building production apps for Asset World, SCB, DLT, and many more",
+    "years": "7+",
+    "experienceLabel": "Years Experience",
+    "projects": "15+",
+    "projectsLabel": "Projects Delivered",
+    "downloadCv": "Download CV",
+    "viewResume": "View Resume"
   },
   "about": {
     "title": "About Me",
-    "body": "Front-End and Mobile Developer with 6+ years of experience building enterprise web and mobile applications. Specialized in React, React Native, and TypeScript for in-house and corporate products including banking, e-wallet, and live streaming platforms."
+    "body": "I build production-ready mobile and web applications for regulated industries — banking, government, and fintech. Specialized in React, React Native, and TypeScript, with experience shipping apps to the App Store and Play Store for enterprise clients."
   },
   "experience": {
     "title": "Work Experience",
-    "downloadCv": "Download CV"
+    "downloadCv": "Download CV",
+    "viewResume": "View Resume"
+  },
+  "education": {
+    "title": "Education"
   },
   "skills": {
     "title": "Skills",
@@ -31,11 +41,18 @@
   },
   "projects": {
     "title": "Featured Projects",
-    "viewAll": "View All Projects",
-    "viewDetails": "View Details"
+    "viewAll": "View All Projects →",
+    "viewDetails": "View Details",
+    "platform": "Platform",
+    "role": "Role",
+    "status": {
+      "live": "Live",
+      "inDevelopment": "In Development"
+    }
   },
   "contact": {
     "title": "Get in Touch",
+    "subtitle": "Open to new opportunities. Feel free to reach out.",
     "linkedin": "LinkedIn",
     "email": "Email"
   },
@@ -44,6 +61,12 @@
   },
   "portfolio": {
     "title": "All Projects",
-    "subtitle": "A selection of web and mobile applications I have contributed to."
+    "subtitle": "A selection of web and mobile applications I have contributed to.",
+    "filterAll": "All",
+    "filterMobile": "Mobile",
+    "filterWeb": "Web",
+    "typeMobile": "Mobile",
+    "typeWeb": "Web",
+    "empty": "No projects in this category."
   }
 }

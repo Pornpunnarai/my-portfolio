@@ -4,9 +4,10 @@ const experience = [
     company: 'Socket 9 Co., Ltd. (HQ)',
     role: 'Mobile and Web Developer (Front-End)',
     bullets: [
-      'Developed DLT Driver and SCB Business Anywhere using React Native',
-      'Built HandiGo and Tspace with React JS; ASAPH with TypeScript and VideoSDK live streaming',
-      'Current: Pikul app and Pikul merchant app (e-wallet) for Asset World Corporation',
+      'Shipped DLT Taxi Driver to App Store — government taxi driver app used nationwide',
+      'Delivered SCB Business Anywhere (React Native) for corporate banking clients',
+      'Built ASAPH live streaming marketplace with TypeScript and VideoSDK',
+      'Currently developing Pikul Wallet e-wallet apps for Asset World Corporation',
     ],
   },
   {
@@ -14,8 +15,9 @@ const experience = [
     company: 'SiamDApp (Thailand) Co.,Ltd.',
     role: 'Web and Mobile Developer (Front-End)',
     bullets: [
-      'React Native: CM-transit, Om Wallet, Om Merchant (POS), CM-Bus Sell Ticket (POS)',
-      'React JS: Tokenization Platform, Crowdfunding; WordPress: Om Platform; Preact/React: CM-Bus Admin',
+      'Released Om Wallet crypto app and Om Merchant POS to production (React Native)',
+      'Launched Tokenization Platform and Urban Crowdfunding web apps (React JS)',
+      'Built CM-Bus transit and ticket POS systems for Chiang Mai public transport',
     ],
   },
   {
@@ -23,7 +25,7 @@ const experience = [
     company: 'School of Public Policy (SPP CMU)',
     role: 'Web-Developer (Front-End)',
     bullets: [
-      'Designed and developed organization website using HTML, CSS, and PHP',
+      'Designed and launched the official CMU School of Public Policy website (HTML, CSS, PHP)',
     ],
   },
   {
@@ -31,7 +33,7 @@ const experience = [
     company: 'PranWorks Co., Ltd.',
     role: 'Software Engineering (Intern)',
     bullets: [
-      'Built Front-End web applications with ASP.NET MVC and MySQL via SqlDataSource',
+      'Built front-end web applications with ASP.NET MVC connected to MySQL databases',
     ],
   },
 ];
