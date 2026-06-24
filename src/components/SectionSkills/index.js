@@ -4,10 +4,16 @@ import skills from '../../data/skills';
 import { useLanguage } from '../../context/LanguageContext';
 import './style.scss';
 
-const SKILL_GROUPS = [
-  { key: 'languages', items: skills.languages },
-  { key: 'frameworks', items: skills.frameworks },
-  { key: 'tools', items: skills.tools },
+const SKILL_GROUP_ORDER = [
+  'languages',
+  'frameworks',
+  'tools',
+  'service',
+  'versionControl',
+  'testing',
+  'projectManagement',
+  'communication',
+  'other',
 ];
 
 const SectionSkills = () => {
@@ -15,14 +21,14 @@ const SectionSkills = () => {
 
   return (
     <section id="skills" className="section-skills">
-      <Container className="section-skills__container">
+      <Container className="section-skills__container section-container">
         <h2 className="section-title section-title--light">{t('skills.title')}</h2>
 
-        {SKILL_GROUPS.map(({ key, items }) => (
+        {SKILL_GROUP_ORDER.map((key) => (
           <div key={key} className="section-skills__group">
             <h3 className="section-skills__group-title">{t(`skills.${key}`)}</h3>
             <div className="section-skills__chips">
-              {items.map((skill) => (
+              {skills[key].map((skill) => (
                 <span key={skill} className="section-skills__chip">
                   {skill}
                 </span>

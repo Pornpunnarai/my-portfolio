@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { getProjectImageVariant } from '../../data/projectImageDisplay';
 import projectMetadata from '../../data/projectMetadata';
 import { getProjectType } from '../../data/projectTypes';
 import { useLanguage } from '../../context/LanguageContext';
@@ -9,6 +10,7 @@ const ProjectCard = ({ project }) => {
   const { t, lang } = useLanguage();
   const metadata = projectMetadata[project.name];
   const projectType = getProjectType(project);
+  const imageVariant = getProjectImageVariant(project);
   const skills = project.skill
     ? project.skill.split(',').map((s) => s.trim()).filter(Boolean)
     : [];
@@ -24,7 +26,14 @@ const ProjectCard = ({ project }) => {
       className="project-card"
       aria-label={`${project.name} — ${t('projects.viewDetails')}`}
     >
-      <img src={project.image} alt={project.name} className="project-card__image" loading="lazy" />
+      <div className={`project-card__media project-card__media--${imageVariant}`}>
+        <img
+          src={project.image}
+          alt={project.name}
+          className="project-card__image"
+          loading="lazy"
+        />
+      </div>
       <div className="project-card__body">
         <div className="project-card__meta">
           <span className={`project-card__badge project-card__badge--type-${projectType}`}>

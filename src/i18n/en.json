@@ -8,6 +8,8 @@
     "contact": "Contact",
     "downloadCv": "Download CV",
     "viewResume": "View Resume",
+    "downloadCoverLetter": "Download Cover Letter",
+    "viewCoverLetter": "View Cover Letter",
     "menuToggle": "Toggle navigation menu"
   },
   "hero": {
@@ -19,7 +21,9 @@
     "projects": "15+",
     "projectsLabel": "Projects Delivered",
     "downloadCv": "Download CV",
-    "viewResume": "View Resume"
+    "viewResume": "View Resume",
+    "downloadCoverLetter": "Download Cover Letter",
+    "viewCoverLetter": "View Cover Letter"
   },
   "about": {
     "title": "About Me",
@@ -28,16 +32,24 @@
   "experience": {
     "title": "Work Experience",
     "downloadCv": "Download CV",
-    "viewResume": "View Resume"
+    "viewResume": "View Resume",
+    "downloadCoverLetter": "Download Cover Letter",
+    "viewCoverLetter": "View Cover Letter"
   },
   "education": {
     "title": "Education"
   },
   "skills": {
     "title": "Skills",
-    "languages": "Languages",
+    "languages": "Programming Languages",
     "frameworks": "Frameworks",
-    "tools": "Tools"
+    "tools": "Tools",
+    "service": "Services & APIs",
+    "versionControl": "Version Control",
+    "testing": "Testing",
+    "projectManagement": "Project Management",
+    "communication": "Communication",
+    "other": "Languages"
   },
   "projects": {
     "title": "Featured Projects",
@@ -54,7 +66,9 @@
     "title": "Get in Touch",
     "subtitle": "Open to new opportunities. Feel free to reach out.",
     "linkedin": "LinkedIn",
-    "email": "Email"
+    "email": "Email",
+    "downloadCoverLetter": "Download Cover Letter",
+    "viewCoverLetter": "View Cover Letter"
   },
   "footer": {
     "copyright": "© Pawnpunnarai Saimoonkham"

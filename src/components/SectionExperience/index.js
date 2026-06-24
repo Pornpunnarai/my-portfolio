@@ -32,16 +32,21 @@ const SectionExperience = () => {
         </div>
 
         <div className="section-experience__actions">
-          <a href={contact.cvPath} download className="section-experience__btn section-experience__btn--primary">
-            {t('experience.downloadCv')}
-          </a>
           <a
             href={contact.cvPath}
             target="_blank"
             rel="noopener noreferrer"
-            className="section-experience__btn section-experience__btn--outline"
+            className="section-experience__btn section-experience__btn--primary"
           >
             {t('experience.viewResume')}
+          </a>
+          <a
+            href={contact.coverLetterPath}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="section-experience__btn section-experience__btn--outline"
+          >
+            {t('experience.viewCoverLetter')}
           </a>
         </div>
       </Container>

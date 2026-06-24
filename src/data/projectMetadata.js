@@ -8,7 +8,7 @@ const projectMetadata = {
   'Pikul Wallet (Release and developing)': {
     platform: 'iOS · Android',
     role: 'Front-End Developer',
-    statusKey: 'inDevelopment',
+    statusKey: 'live',
     descriptionTh: 'แอป E-Wallet สำหรับ Asset World Corporation (โปรเจกต์ปัจจุบัน)',
   },
   'DLT Taxi Driver': {

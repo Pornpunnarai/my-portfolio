@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { faEnvelope, faFileDownload, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import contact from '../../data/contact';
@@ -35,10 +35,6 @@ const SectionContact = () => {
             <FontAwesomeIcon icon={faEnvelope} />
             <span>{contact.email}</span>
           </a>
-          <a href={contact.cvPath} download className="section-contact__link">
-            <FontAwesomeIcon icon={faFileDownload} />
-            <span>{t('nav.downloadCv')}</span>
-          </a>
           <a
             href={contact.cvPath}
             target="_blank"
@@ -47,6 +43,15 @@ const SectionContact = () => {
           >
             <FontAwesomeIcon icon={faExternalLinkAlt} />
             <span>{t('nav.viewResume')}</span>
+          </a>
+          <a
+            href={contact.coverLetterPath}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="section-contact__link"
+          >
+            <FontAwesomeIcon icon={faExternalLinkAlt} />
+            <span>{t('contact.viewCoverLetter')}</span>
           </a>
         </div>
       </Container>

@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useCallback } from 'react';
+import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import en from '../i18n/en.json';
 import th from '../i18n/th.json';
 
@@ -6,14 +6,23 @@ const messages = { en, th };
 const LanguageContext = createContext(null);
 
 export function LanguageProvider({ children }) {
-  const [lang, setLangState] = useState(
-    () => localStorage.getItem('portfolio-lang') || 'en'
-  );
+  const [lang, setLangState] = useState(() => {
+    const saved = localStorage.getItem('portfolio-lang');
+    return saved === 'th' ? 'th' : 'en';
+  });
 
   const setLang = useCallback((next) => {
     setLangState(next);
-    localStorage.setItem('portfolio-lang', next);
+    if (next === 'th') {
+      localStorage.setItem('portfolio-lang', 'th');
+    } else {
+      localStorage.removeItem('portfolio-lang');
+    }
   }, []);
+
+  useEffect(() => {
+    document.documentElement.lang = lang === 'th' ? 'th' : 'en';
+  }, [lang]);
 
   const t = useCallback(
     (key) => {

@@ -39,16 +39,21 @@ const SectionHero = () => {
             </div>
 
             <div className="section-hero__actions">
-              <a href={contact.cvPath} download className="section-hero__btn section-hero__btn--primary">
-                {t('hero.downloadCv')}
-              </a>
               <a
                 href={contact.cvPath}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="section-hero__btn section-hero__btn--outline"
+                className="section-hero__btn section-hero__btn--primary"
               >
                 {t('hero.viewResume')}
+              </a>
+              <a
+                href={contact.coverLetterPath}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="section-hero__btn section-hero__btn--outline"
+              >
+                {t('hero.viewCoverLetter')}
               </a>
             </div>
           </Col>

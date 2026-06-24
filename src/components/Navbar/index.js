@@ -83,12 +83,17 @@ const Navbar = () => {
               href={contact.cvPath}
               target="_blank"
               rel="noopener noreferrer"
-              className="navbar__view-resume"
+              className="navbar__cv"
             >
               {t('nav.viewResume')}
             </a>
-            <a href={contact.cvPath} download className="navbar__cv">
-              {t('nav.downloadCv')}
+            <a
+              href={contact.coverLetterPath}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="navbar__view-resume"
+            >
+              {t('nav.viewCoverLetter')}
             </a>
           </div>
         </div>

@@ -8,6 +8,8 @@
     "contact": "ติดต่อ",
     "downloadCv": "ดาวน์โหลด CV",
     "viewResume": "ดู Resume",
+    "downloadCoverLetter": "ดาวน์โหลด Cover Letter",
+    "viewCoverLetter": "ดู Cover Letter",
     "menuToggle": "เปิด/ปิดเมนู"
   },
   "hero": {
@@ -15,11 +17,13 @@
     "subtitle": "Mobile & Front-End & Web Developer · React Native· React · TypeScript",
     "tagline": "ประสบการณ์ 7+ ปี สร้างแอป production ให้ Asset World, SCB, DLT และ อื่นๆ อีกมากมาย",
     "years": "7+",
-    "experienceLabel": "ปีประสบการณ์",
+    "experienceLabel": "ประสบการณ์(ปี)",
     "projects": "15+",
-    "projectsLabel": "โปรเจกต์สำเร็จ",
+    "projectsLabel": "โปรเจกต์ที่สำเร็จ",
     "downloadCv": "ดาวน์โหลด CV",
-    "viewResume": "ดู Resume"
+    "viewResume": "ดู Resume",
+    "downloadCoverLetter": "ดาวน์โหลด Cover Letter",
+    "viewCoverLetter": "ดู Cover Letter"
   },
   "about": {
     "title": "เกี่ยวกับฉัน",
@@ -28,7 +32,9 @@
   "experience": {
     "title": "ประสบการณ์การทำงาน",
     "downloadCv": "ดาวน์โหลด CV",
-    "viewResume": "ดู Resume"
+    "viewResume": "ดู Resume",
+    "downloadCoverLetter": "ดาวน์โหลด Cover Letter",
+    "viewCoverLetter": "ดู Cover Letter"
   },
   "education": {
     "title": "การศึกษา"
@@ -37,7 +43,13 @@
     "title": "ทักษะ",
     "languages": "ภาษาโปรแกรม",
     "frameworks": "Framework",
-    "tools": "เครื่องมือ"
+    "tools": "เครื่องมือ",
+    "service": "บริการ & APIs",
+    "versionControl": "ระบบควบคุมเวอร์ชัน",
+    "testing": "การทดสอบ",
+    "projectManagement": "การจัดการโปรเจกต์",
+    "communication": "การสื่อสาร",
+    "other": "ภาษา"
   },
   "projects": {
     "title": "ผลงานเด่น",
@@ -52,9 +64,11 @@
   },
   "contact": {
     "title": "ติดต่อ",
-    "subtitle": "เปิดรับโอกาสใหม่ ติดต่อได้เลยครับ",
+    "subtitle": "เปิดรับโอกาสใหม่ ติดต่อได้ค่ะ",
     "linkedin": "LinkedIn",
-    "email": "อีเมล"
+    "email": "อีเมล",
+    "downloadCoverLetter": "ดาวน์โหลด Cover Letter",
+    "viewCoverLetter": "ดู Cover Letter"
   },
   "footer": {
     "copyright": "© พรพรรณนารายณ์ ทรายมูลคำ"

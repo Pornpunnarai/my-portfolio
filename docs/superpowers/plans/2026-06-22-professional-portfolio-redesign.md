@@ -164,7 +164,7 @@ Create `src/data/featuredProjects.js`:
 ```javascript
 const FEATURED_PROJECT_NAMES = [
   'ASAPH',
-  'Pikul Wallet (Release and developing)',
+  'Pikul Wallet',
   'DLT Taxi Driver',
   'SCB Business Anywhere',
 ];

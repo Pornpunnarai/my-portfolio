@@ -22,5 +22,5 @@ test('t() returns english by default and switches to thai', () => {
   expect(screen.getByTestId('hero')).toHaveTextContent('Pawnpunnarai Saimoonkham');
   fireEvent.click(screen.getByText('TH'));
   expect(screen.getByTestId('lang')).toHaveTextContent('th');
-  expect(screen.getByTestId('hero')).toHaveTextContent('ปอนปุณณรัตน์ สายมูลคำ');
+  expect(screen.getByTestId('hero')).toHaveTextContent('พรพรรณนารายณ์ ทรายมูลคำ');
 });

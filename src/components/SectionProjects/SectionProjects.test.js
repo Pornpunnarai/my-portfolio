@@ -1,10 +1,10 @@
 import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { LanguageProvider } from '../../context/LanguageContext';
 import SectionProjects from './index';
 
-const renderSection = () =>
+test('featured projects section lists curated projects without type filters', () => {
   render(
     <LanguageProvider>
       <MemoryRouter>
@@ -12,15 +12,7 @@ const renderSection = () =>
       </MemoryRouter>
     </LanguageProvider>
   );
-
-test('featured projects section has type filters', () => {
-  renderSection();
-  expect(screen.getByRole('tab', { name: 'All' })).toBeInTheDocument();
+  expect(screen.queryByRole('tab', { name: 'All' })).not.toBeInTheDocument();
   expect(screen.getByText('Pikul Wallet (Release and developing)')).toBeInTheDocument();
-});
-
-test('featured web filter shows empty state', () => {
-  renderSection();
-  fireEvent.click(screen.getByRole('tab', { name: 'Web' }));
-  expect(screen.getByText('No projects in this category.')).toBeInTheDocument();
+  expect(screen.getByText('ASAPH')).toBeInTheDocument();
 });

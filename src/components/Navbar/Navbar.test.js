@@ -4,7 +4,7 @@ import { MemoryRouter } from 'react-router-dom';
 import { LanguageProvider } from '../../context/LanguageContext';
 import Navbar from './index';
 
-test('navbar renders download cv and language toggle', () => {
+test('navbar renders view resume and language toggle', () => {
   render(
     <LanguageProvider>
       <MemoryRouter>
@@ -12,7 +12,7 @@ test('navbar renders download cv and language toggle', () => {
       </MemoryRouter>
     </LanguageProvider>
   );
-  expect(screen.getByText(/Download CV/i)).toBeInTheDocument();
+  expect(screen.getByText(/View Resume/i)).toBeInTheDocument();
   expect(screen.getByText('EN')).toBeInTheDocument();
   expect(screen.getByText('TH')).toBeInTheDocument();
 });
