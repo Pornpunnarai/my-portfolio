@@ -22,7 +22,11 @@ const SectionHero = () => {
             </div>
           </Col>
           <Col xs={12} md={7} className="section-hero__content">
-            <h1 className="section-hero__title">{t('hero.title')}</h1>
+            <span className="section-hero__availability">{t('hero.availability')}</span>
+            <h1 className="section-hero__title">
+              {t('hero.title')}
+              <span className="section-hero__nickname">{t('hero.nickname')}</span>
+            </h1>
             <p className="section-hero__subtitle">{t('hero.subtitle')}</p>
             <p className="section-hero__tagline">{t('hero.tagline')}</p>
 
@@ -35,6 +39,11 @@ const SectionHero = () => {
               <div className="section-hero__stat">
                 <span className="section-hero__stat-value">{t('hero.projects')}</span>
                 <span className="section-hero__stat-label">{t('hero.projectsLabel')}</span>
+              </div>
+              <div className="section-hero__stat-divider" aria-hidden="true" />
+              <div className="section-hero__stat">
+                <span className="section-hero__stat-value">{t('hero.remoteYears')}</span>
+                <span className="section-hero__stat-label">{t('hero.remoteLabel')}</span>
               </div>
             </div>
 

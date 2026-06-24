@@ -14,20 +14,29 @@
   },
   "hero": {
     "title": "Pawnpunnarai Saimoonkham",
-    "subtitle": "Mobile & Front-End & Web Developer · React Native· React · TypeScript",
-    "tagline": "7+ years building production apps for Asset World, SCB, DLT, and many more",
+    "nickname": "(Wow)",
+    "subtitle": "Senior React Native & React Developer",
+    "tagline": "7+ years building end-to-end mobile and web solutions for banking, fintech, and enterprise clients",
+    "availability": "Available immediately",
     "years": "7+",
     "experienceLabel": "Years Experience",
     "projects": "15+",
     "projectsLabel": "Projects Delivered",
-    "downloadCv": "Download CV",
+    "remoteYears": "5+",
+    "remoteLabel": "Years Remote",
     "viewResume": "View Resume",
-    "downloadCoverLetter": "Download Cover Letter",
     "viewCoverLetter": "View Cover Letter"
   },
   "about": {
     "title": "About Me",
-    "body": "I build production-ready mobile and web applications for regulated industries — banking, government, and fintech. Specialized in React, React Native, and TypeScript, with experience shipping apps to the App Store and Play Store for enterprise clients."
+    "body": "Senior React Native and React developer with 7+ years of hands-on experience shipping production apps for regulated industries. I focus on clean architecture, reliable API and payment integrations, and practical solutions that deliver real business value — without over-engineering.",
+    "highlightsTitle": "Why I'm a strong fit",
+    "highlight1Title": "Experienced Hands-on Developer",
+    "highlight1Text": "Deep experience in React Native, code architecture, and system integration (API/Payment). I deliver high-quality, end-to-end solutions from UI to App Store release.",
+    "highlight2Title": "Practical Problem Solver",
+    "highlight2Text": "Across diverse projects in banking, government, and fintech, I find solutions that meet business needs efficiently — focused on what works, not unnecessary complexity.",
+    "highlight3Title": "Trusted Remote Professional",
+    "highlight3Text": "100% remote for 5+ years. Proven track record of clear communication, self-management, and high productivity in distributed teams."
   },
   "experience": {
     "title": "Work Experience",
@@ -64,10 +73,10 @@
   },
   "contact": {
     "title": "Get in Touch",
-    "subtitle": "Open to new opportunities. Feel free to reach out.",
+    "subtitle": "Open to Senior React Native / React roles. Available to start immediately.",
     "linkedin": "LinkedIn",
     "email": "Email",
-    "downloadCoverLetter": "Download Cover Letter",
+    "phone": "Phone",
     "viewCoverLetter": "View Cover Letter"
   },
   "footer": {

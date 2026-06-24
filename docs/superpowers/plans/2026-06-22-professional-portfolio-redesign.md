@@ -211,7 +211,7 @@ test('experience has four work entries', () => {
 ```javascript
 const experience = [
   {
-    period: 'March 2021 - Present',
+    period: 'March 2021 - April 2026 (5Y 2M)',
     company: 'Socket 9 Co., Ltd. (HQ)',
     role: 'Mobile and Web Developer (Front-End)',
     bullets: [

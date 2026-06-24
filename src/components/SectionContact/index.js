@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { faEnvelope, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faExternalLinkAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import contact from '../../data/contact';
@@ -35,6 +35,17 @@ const SectionContact = () => {
             <FontAwesomeIcon icon={faEnvelope} />
             <span>{contact.email}</span>
           </a>
+          <a
+            href={`tel:${contact.phone}`}
+            className="section-contact__link"
+            aria-label={t('contact.phone')}
+          >
+            <FontAwesomeIcon icon={faPhone} />
+            <span>{contact.phoneDisplay}</span>
+          </a>
+        </div>
+
+        <div className="section-contact__documents">
           <a
             href={contact.cvPath}
             target="_blank"

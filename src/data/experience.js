@@ -1,13 +1,13 @@
 const experience = [
   {
-    period: 'March 2021 - Present',
+    period: 'March 2021 - April 2026 (5Y 2M)',
     company: 'Socket 9 Co., Ltd. (HQ)',
-    role: 'Mobile and Web Developer (Front-End)',
+    role: 'Senior Mobile and Web Developer (Front-End) · Remote',
     bullets: [
-      'Shipped DLT Taxi Driver to App Store — government taxi driver app used nationwide',
-      'Delivered SCB Business Anywhere (React Native) for corporate banking clients',
-      'Built ASAPH live streaming marketplace with TypeScript and VideoSDK',
+      'Shipped DLT Taxi Driver and SCB Business Anywhere (React Native) with API and payment integrations',
+      'Built ASAPH live streaming marketplace with TypeScript, VideoSDK, and scalable front-end architecture',
       'Currently developing Pikul Wallet e-wallet apps for Asset World Corporation',
+      'Working 100% remotely with clear async communication and consistent delivery',
     ],
   },
   {

@@ -25,7 +25,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 16px 24px;
+  margin-bottom: 20px;
+}
+
+.section-contact__documents {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 16px 24px;
 }
 
 .section-contact__link {

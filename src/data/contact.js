@@ -4,8 +4,8 @@ import coverLetterPath from '../assets/files/Cover-Letter-(General-Version-for-S
 const contact = {
   linkedin: 'https://www.linkedin.com/in/pawnpunnarai-saimoonkham-b0041b130/',
   email: 'pawnpunnarai.saimoonkham@gmail.com',
-  facebook: 'https://www.facebook.com/kudokung.w/',
-  instagram: 'https://www.instagram.com/kulzoul/',
+  phone: '0824960172',
+  phoneDisplay: '082-496-0172',
   cvPath,
   coverLetterPath,
 };

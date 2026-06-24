@@ -14,20 +14,29 @@
   },
   "hero": {
     "title": "พรพรรณนารายณ์ ทรายมูลคำ",
-    "subtitle": "Mobile & Front-End & Web Developer · React Native· React · TypeScript",
-    "tagline": "ประสบการณ์ 7+ ปี สร้างแอป production ให้ Asset World, SCB, DLT และ อื่นๆ อีกมากมาย",
+    "nickname": "(วาว)",
+    "subtitle": "Senior React Native & React Developer",
+    "tagline": "ประสบการณ์ 7+ ปี พัฒนา mobile และ web แบบ end-to-end ให้ธนาคาร fintech และองค์กรชั้นนำ",
+    "availability": "พร้อมเริ่มงานทันที",
     "years": "7+",
-    "experienceLabel": "ประสบการณ์(ปี)",
+    "experienceLabel": "ปีประสบการณ์",
     "projects": "15+",
-    "projectsLabel": "โปรเจกต์ที่สำเร็จ",
-    "downloadCv": "ดาวน์โหลด CV",
+    "projectsLabel": "โปรเจกต์สำเร็จ",
+    "remoteYears": "5+",
+    "remoteLabel": "ปีทำงาน Remote",
     "viewResume": "ดู Resume",
-    "downloadCoverLetter": "ดาวน์โหลด Cover Letter",
     "viewCoverLetter": "ดู Cover Letter"
   },
   "about": {
     "title": "เกี่ยวกับฉัน",
-    "body": "ฉันพัฒนาแอปมือถือและเว็บที่พร้อมใช้งานจริงสำหรับอุตสาหกรรมที่มีการกำกับดูแล — ธนาคาร ภาครัฐ และ fintech เชี่ยวชาญ React, React Native และ TypeScript พร้อมประสบการณ์ launch แอปขึ้น App Store และ Play Store ให้ลูกค้าองค์กร"
+    "body": "Senior React Native และ React Developer ประสบการณ์ 7+ ปี ส่งมอบแอป production สำหรับอุตสาหกรรมที่มีการกำกับดูแล เน้น architecture ที่ดี การเชื่อมต่อ API/Payment ที่เชื่อถือได้ และโซลูชันที่ตอบโจทย์ธุรกิจจริง — ไม่ over-engineer",
+    "highlightsTitle": "จุดเด่นที่เหมาะกับตำแหน่ง Senior",
+    "highlight1Title": "Experienced Hands-on Developer",
+    "highlight1Text": "เชี่ยวชาญ React Native, code architecture และ system integration (API/Payment) ส่งมอบงาน end-to-end ตั้งแต่ UI จนถึง App Store",
+    "highlight2Title": "Practical Problem Solver",
+    "highlight2Text": "จากโปรเจกต์หลากหลายใน banking, government และ fintech มุ่งหาทางแก้ที่ตอบโจทย์ธุรกิจอย่างมีประสิทธิภาพ ไม่ซับซ้อนเกินจำเป็น",
+    "highlight3Title": "Trusted Remote Professional",
+    "highlight3Text": "ทำงาน remote 100% มากกว่า 5 ปี สื่อสารชัดเจน บริหารงานได้ด้วยตนเอง และส่งงานได้สม่ำเสมอในทีม distributed"
   },
   "experience": {
     "title": "ประสบการณ์การทำงาน",
@@ -64,10 +73,10 @@
   },
   "contact": {
     "title": "ติดต่อ",
-    "subtitle": "เปิดรับโอกาสใหม่ ติดต่อได้ค่ะ",
+    "subtitle": "เปิดรับตำแหน่ง Senior React Native / React — พร้อมเริ่มงานทันที",
     "linkedin": "LinkedIn",
     "email": "อีเมล",
-    "downloadCoverLetter": "ดาวน์โหลด Cover Letter",
+    "phone": "โทรศัพท์",
     "viewCoverLetter": "ดู Cover Letter"
   },
   "footer": {
